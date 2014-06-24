@@ -1,0 +1,22 @@
+{
+  "name": "nodeTodoApi",
+  "version": "0.0.0",
+  "description": "This is a great Tutorial for Express and Node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Nearhan/nodeTodoApi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nearhan/nodeTodoApi/issues"
+  },
+  "homepage": "https://github.com/Nearhan/nodeTodoApi",
+  "dependencies": {
+    "express": "^4.4.4"
+  }
+}
