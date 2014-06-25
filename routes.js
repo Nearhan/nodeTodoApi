@@ -1,4 +1,6 @@
-exports = _router;
+module.exports = function() {
+  return _router;
+};
 
 var fs = require('fs');
 var util = require('util');
@@ -16,7 +18,7 @@ _router.get('/', function (req, res, next) {
         }
         res.writeHead(200);
         return res.end(file.toString());
-    })
+    });
 });
 
 _router.get('/about', function (req, res, next) {
@@ -29,6 +31,5 @@ _router.get('/about', function (req, res, next) {
         }
         res.writeHead(200);
         return res.end(file.toString());
-    })
+    });
 });
-
