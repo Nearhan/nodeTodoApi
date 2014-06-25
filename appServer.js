@@ -10,7 +10,7 @@ server.listen(8000);
 
 io.sockets.on('connection', function(socket) {
 
-	socket.on('data', function(msg) { 
+	socket.on('data', function(msg) {
 
 	    console.log(msg);
 	});
