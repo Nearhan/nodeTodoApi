@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Nearhan/nodeTodoApi",
   "dependencies": {
-    "express": "^4.4.4"
+    "express": "^4.4.4",
+    "socket.io": "^1.0.6"
   }
 }
