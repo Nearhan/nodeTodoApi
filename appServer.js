@@ -20,6 +20,4 @@ io.sockets.on('connection', function(socket) {
 	socket.emit('ready', {message: 'Ready.'});
 });
 
-
-
 app.listen(9000);
