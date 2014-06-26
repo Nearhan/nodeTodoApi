@@ -6,7 +6,7 @@
     <h1>Hello World Again!</h1>
     <script>
       var sock = io.connect('http://localhost:8000');
-      
+
       var messageQueue = [];
       sock.on('ready', function(msg) {
       	messageQueue.push(msg);
