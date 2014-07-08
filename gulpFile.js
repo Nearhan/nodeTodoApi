@@ -8,11 +8,24 @@ var gulp = require('gulp'),
 
 var karmaConfig = {
     browsers: ['Chrome'],
-    frameworks: ['mocha', 'chai'],
+    frameworks: ['jasmine', 'mocha', 'chai'],
     files: [
-        'public/tests/**/*.js',
-        'tests/**/*,js'
+        'public/lib/angular/angular.js',
+        'public/lib/angular-route/angular-route.js',
+        'public/lib/angular-mocks/angular-mocks.js',
+        'public/app/js/*.js',
+        'public/test/unit/*.js',
+        'tests/**/*.js'
     ],
+    autoWatch: true,
+
+    plugins: [
+        'karma-chrome-launcher',
+        'karma-jasmine',
+        'karma-mocha',
+        'karma-chai'
+    ]
+
 };
 
 
