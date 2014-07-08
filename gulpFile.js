@@ -16,12 +16,7 @@ var karmaConfig = {
 };
 
 
-
-
-
-
 // Gulp Task Definitions =======================================
-
 gulp.task('connect', function() {
     connect.server({
         root: 'public',
@@ -32,7 +27,7 @@ gulp.task('connect', function() {
 
 // Test Task ====================================================
 gulp.task('tests', function() {
-    kara.start(karmaConfig);
+    karma.start(karmaConfig);
 });
 
 
